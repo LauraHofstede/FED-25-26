@@ -56,7 +56,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Bevindingen toegankelijkheid van website Ticketswap
+
+  **Screenreader:**
+  Ik vond het redelijk lastig om met de screenreader te werken. Het leest echt alles op wat er op de pagina staat. Toen ik de website in de zoekbalt aan het typen was werden de extra tekens ook opgelezen, hierdoor vond ik het moeilijk te begrijpen wat er nou echt gebeurde op het scherm omdat je zo veel hoort. Ik denk dat als ik slechtziende was ik heel snel overprikkeld hiervan zou raken. Ik vond het werken met de controlls ook wel redelijk ingewikkeld omdat je op mac een aantal knoppen tergelijkertijd moet gebruiken, dit was even wennen. 
+  
+  **Bevindingen website:** Het logo werd als een link opgelezen inplaats van de naam van de website zelf. De menubalk werd aangegeven als link en een lijst met 5 onderdelen, ik wist nu niet wat voor lijst dit was en waar ik uit kon kiezen zonder hier in te gaan. Toen ik op een link in de lijst klikte ging ik naar de pagina. Toen last het voor ‘’Je bevind je momenteel op een webmateriaal in een groep.’’ Ik heb geen idee wat dat zou moeten betekenen. 
+  Verder op de homepagina. na de menubalk ging het over naar de zoekbalk, hier bleef ik in hangen en ik wist even niet hoe ik verder moest met de pagina navigeren. Toen ik verder ging met TAB ging het alleen door de links op de pagina heen, niet de teksten zelf. Het sloeg dus een aantal dingen over waardoor ik deze niet aan kon klikken.
+  
+  **WCAG Checklist:**
+  De content van de website is prima. De afbeeldigen hebben goede alt teksten. En verder voldoet de code grotendeels aan de checklist. 
+  
+  **Contrast-ratio**: Headings: 18.95 / Normale tekst: 10.17. ‘’Passes AAA level for any size text and AA for user interface components and graphical objects’’ Deze zijn dus beide goed. 
+  
+  **Kleurblindheid**: Ik heb getest met alle opties, in alle gevallen is de website nogsteeds goed te navigeren, dit komt omdat de titels en de knoppen er duidelijk anders uit zien. Hierdoor kan je ook zonder kleurverschil zien dat het iets anders is dan normale tekst. Ook heb ik gekeken hoe het er uit zag met een laag contrast. De tekst is nogsteeds te lezen omdat de contrast ratio goed is. 
 
 </details>
 

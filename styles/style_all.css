@@ -1,0 +1,99 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text:white;
+    --color-secondary-text: #b5bfca;
+    --color-dark_background:#00131a;
+    --color-elevated_background:#1a2129;
+	--color-stroke: #2e3a47;
+}
+
+
+body{
+    color: var(--color-text);
+    background-color: var(--color-dark_background);
+    color-scheme: light dark;
+	padding: 0;
+	margin: 0;
+
+	/* nog de goede opzoeken */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0em;
+    margin: 0em;
+}
+
+
+header nav {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 1rem;
+
+	border-bottom: 1px solid var(--color-stroke);
+}
+	header nav img {
+		/* Goede afb downloaden zonder de extra padding / aanpassen  */
+		width: 200px;
+	}
+	header nav ul{
+		display: flex;
+		gap: 1rem;
+	}
+
+
+
+footer {
+	border-top: 1px solid var(--color-stroke);
+	
+	display: grid;
+	gap: 2rem;
+	padding: 1rem;
+}
+
+footer section:first-child {
+	display: flex;
+}
+	footer section:first-child div:first-child {
+		display: flex;
+		flex-direction: column;
+	}
+	footer section:first-child ul {
+		display: flex;
+		gap: 1em;
+		flex-basis: 100%;
+		justify-content: space-between;
+		overflow-x: scroll;
+	}
+		footer section:first-child ul img {
+			height: 60px;
+		}
+
+
+
+/* appstore / playstore */
+footer section div:nth-child(1), footer section div:nth-child(2)  {
+	display: flex;
+}
+	footer section div:nth-child(1) img, footer section div:nth-child(2) img {
+		width: 135px;
+	}
+
+/* websitevanhetjaar div */
+footer section div:last-child  {
+	display: flex;
+	gap: 1rem;
+	padding-top: 2rem;
+}
+	footer section div:last-child img {
+		width: 80px;
+	}

@@ -1,0 +1,126 @@
+/*********************//*********************/
+/*********     VOLGENDE EVENEMENT    *********/
+/*********************//*********************/
+main section:nth-child(3) ul {
+    display: grid;
+    grid-template-columns:repeat( var(--columns, 1),1fr);
+    gap: 1em;
+
+    @media (width > 30em) {
+        --columns:2;
+    }
+    @media (width > 48em) {
+        --columns:4;
+    }
+}
+
+main section:nth-child(3) ul li{
+        background: var(--color-elevated_background);
+        border-radius: 0.75em;
+        padding: 1em;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main section:nth-child(3) ul img{
+        width: 32px;
+    }
+
+
+
+
+/*********************//*********************/
+/*********     aanbevelingen    *********/
+/*********************//*********************/
+main section:nth-child(4) section {
+    /* display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr; */
+
+    display: flex;
+
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+main section:nth-child(4) article, .trending article {
+    background-color: var(--color-elevated_background);
+    border-radius: 1rem;
+}
+main section:nth-child(4) article img, .trending article img {
+        border-radius: 1rem 1rem 0 0;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .aanbevelingen_card {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (width > 48em) {
+            padding: 1.5rem;
+        }
+    }
+
+        .aanbevelingen_card p {
+            margin: 0;
+        }
+        .aanbevelingen_card p:nth-of-type(2) {
+            color: var(--color-secondary-text);
+        }
+        .aanbevelingen_card p:nth-of-type(2) {
+            border: 1px solid var(--color-secondary-text);
+            width: fit-content;
+            padding: .2rem .4rem;
+            border-radius: 2rem;
+        }
+
+
+
+/*********************//*********************/
+/*********     spotify   *********/
+/*********************//*********************/
+main section:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+    border: 1px solid var(--color-stroke);
+    border-radius: .5rem;
+
+
+    @media (width > 48em) {
+        flex-direction: row;
+    }
+}
+    main section:nth-child(5) img {
+        width: 64px;
+    }
+
+
+
+
+/*********************//*********************/
+/*********     leukste concerten    *********/
+/*********************//*********************/
+main section:nth-child(6) section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+
+    @media (width > 48em) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+main section:nth-child(6) article {
+    background-color: var(--color-elevated_background);
+    border-radius: 1rem;
+    padding: 1rem;
+}

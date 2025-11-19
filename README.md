@@ -1,0 +1,250 @@
+# Procesverslag
+Markdown is een simpele manier om HTML te schrijven.  
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+
+Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
+
+
+
+
+
+## Jij
+
+<details open>
+  <summary>uitwerken voor kick-off werkgroep</summary>
+
+  ### Auteur:
+  Laura Hofstede
+
+  #### Je startniveau:
+  Rood
+
+  #### Je focus:
+  poging tot beide responsive en surface plane
+ 
+</details>
+
+
+
+
+
+## Je website
+
+<details open>
+  <summary>uitwerken voor kick-off werkgroep</summary>
+
+  ### Je opdracht:
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+
+  #### Screenshot(s) van de eerste pagina (small screen): 
+  hier de naam van de pagina  
+    <img src="readme-images/homepagina.png" width="375px" alt="homepagina">
+
+  #### Screenshot(s) van de tweede pagina (small screen):
+  hier de naam van de pagina  
+  <img src="readme-images/ticketpagina.png" width="375px" alt="ticketpagina">
+ 
+</details>
+
+
+
+## Toegankelijkheidstest 1/2 (week 1)
+
+<details>
+  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+
+  ### Bevindingen
+    Bevindingen toegankelijkheid van website Ticketswap
+
+    Screenreader: Ik vond het redelijk lastig om met de screenreader te werken. Het leest echt alles op wat er op de pagina staat. Toen ik de website in de zoekbalt aan het typen was werden de extra tekens ook opgelezen, hierdoor vond ik het moeilijk te begrijpen wat er nou echt gebeurde op het scherm omdat je zo veel hoort. Ik denk dat als ik slechtziende was ik heel snel overprikkeld hiervan zou raken. Ik vond het werken met de controlls ook wel redelijk ingewikkeld omdat je op mac een aantal knoppen tergelijkertijd moet gebruiken, dit was even wennen.
+
+    Bevindingen website: Het logo werd als een link opgelezen inplaats van de naam van de website zelf. De menubalk werd aangegeven als link en een lijst met 5 onderdelen, ik wist nu niet wat voor lijst dit was en waar ik uit kon kiezen zonder hier in te gaan. Toen ik op een link in de lijst klikte ging ik naar de pagina. Toen last het voor ‘’Je bevind je momenteel op een webmateriaal in een groep.’’ Ik heb geen idee wat dat zou moeten betekenen. Verder op de homepagina. na de menubalk ging het over naar de zoekbalk, hier bleef ik in hangen en ik wist even niet hoe ik verder moest met de pagina navigeren. Toen ik verder ging met TAB ging het alleen door de links op de pagina heen, niet de teksten zelf. Het sloeg dus een aantal dingen over waardoor ik deze niet aan kon klikken.
+
+    WCAG Checklist: De content van de website is prima. De afbeeldigen hebben goede alt teksten. En verder voldoet de code grotendeels aan de checklist.
+
+    Contrast-ratio: Headings: 18.95 / Normale tekst: 10.17. ‘’Passes AAA level for any size text and AA for user interface components and graphical objects’’ Deze zijn dus beide goed.
+
+    Kleurblindheid: Ik heb getest met alle opties, in alle gevallen is de website nogsteeds goed te navigeren, dit komt omdat de titels en de knoppen er duidelijk anders uit zien. Hierdoor kan je ook zonder kleurverschil zien dat het iets anders is dan normale tekst. Ook heb ik gekeken hoe het er uit zag met een laag contrast. De tekst is nogsteeds te lezen omdat de contrast ratio goed is.
+
+</details>
+
+
+
+## Breakdownschets (week 1)
+
+<details>
+  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+
+  ### de hele pagina: 
+  <img src="/readme-images/Breakdowns.png" width="375px" alt="breakdown van de hele pagina">
+
+  <img src="/readme-images/homepage.png" width="375px" alt="breakdown van de hele pagina">
+  Hier de onderdelen die ik van de homepagina ga maken
+
+  ### dynamisch deel (bijv menu): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
+</details>
+
+
+
+
+
+## Voortgang 1 (week 2)
+
+<details>
+  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  De code schrijven ging redelijk goed, af en toe moest ik even nadenken wat voor stukje code ik moest gebruiken. Sommige delen weet ik nog niet hoe ik dit moet gaan maken zoals de ropdown menus. 
+  Ik ben ook alvast begonnen aan de css code schrijven zodat het al een beetje werkt op mobiel en desktop.
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
+
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
+
+</details>
+
+
+
+
+
+## Voortgang 2 (week 3)
+
+<details>
+  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
+
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+- ...
+
+</details>
+
+
+
+
+
+## Toegankelijkheidstest 2/2 (week 4)
+
+<details>
+  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+
+  ### Bevindingen
+  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+</details>
+
+
+
+
+
+## Voortgang 3 (week 4)
+
+<details>
+  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
+
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
+
+</details>
+
+
+
+
+
+## Eindgesprek (week 5)
+
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+
+
+  ### Dit ging goed/Heb ik geleerd: 
+  Korte omschrijving met plaatjes
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+
+  ### Dit was lastig/Is niet gelukt:
+  Korte omschrijving met plaatjes
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+</details>
+
+
+
+
+
+## Bronnenlijst
+
+<details open>
+  <summary>continu bijhouden terwijl je werkt</summary>
+
+  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
+  Nb. ChatGpT en andere AI horen er ook bij.
+  Nb. Vermeld de bronnen ook in je code.
+
+  1. bron 1
+  2. bron 2
+  3. ...
+
+</details>

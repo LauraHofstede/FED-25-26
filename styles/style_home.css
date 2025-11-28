@@ -1,6 +1,67 @@
-/*********************//*********************/
-/*********     VOLGENDE EVENEMENT    *********/
-/*********************//*********************/
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text:white;
+    --color-secondary-text: #b5bfca;
+    --color-dark_background:#00131a;
+    --color-elevated_background:#1a2129;
+	--color-stroke: #2e3a47;
+
+	--color-button: #022d3d;
+
+	--color-extra: #00b6f0;
+    --color-extra-secondary: #fe4a49;
+}
+
+
+body {
+    margin:0;
+  }
+
+
+/*********************/    /*********************/
+/******        SEARCH   section 1         ******/
+/*********************/   /*********************/
+h1 {
+    margin:0;
+    text-align: center;
+}
+
+main section:nth-child(1) {
+    background-image: url('../images/search_cover');
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main section:nth-child(1) div {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    place-items: center;
+}
+main section:nth-child(1) svg {
+    grid-area: 1 / 1 / 1 / 2;
+}
+main section:nth-child(1) input {
+    grid-area: 1 / 1 / 1 / 4;
+    padding-inline-start: 3rem;
+    block-size: 3rem;
+    background-color: var(--color-dark_background);
+    border: 1px solid var(--color-stroke);
+    border-radius: .5rem;
+    width: 33vw;
+}
+
+
+
+/*********************/    /*********************/
+/******   VOLGENDE EVENEMENT   section 3  ******/
+/*********************/   /*********************/
 main section:nth-child(3) ul {
     display: grid;
     grid-template-columns:repeat( var(--columns, 1),1fr);
@@ -33,16 +94,29 @@ main section:nth-child(3) ul li{
 /*********************//*********************/
 /*********     aanbevelingen    *********/
 /*********************//*********************/
-main section:nth-child(4) section {
+main section:nth-child(4) ul {
     /* display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr; */
 
-    display: flex;
+    display:flex;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    gap:1rem;
 
     overflow-x: scroll;
     scrollbar-width: none;
+
+    /* dit moet hier omdat ik op de pagina een bepaalde padding heb gegeven, dit werkt anders niet */
+    padding: 0;
 }
+    main section:nth-child(4) ul li{
+        flex-basis: 33.33%;
+        /* flex-basis: calc(33.33% - .75rem); */
+        flex-shrink:0;
+    }
+
+
 
 main section:nth-child(4) article, .trending article {
     background-color: var(--color-elevated_background);
@@ -58,12 +132,12 @@ main section:nth-child(4) article img, .trending article img {
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
 
         @media (width > 48em) {
             padding: 1.5rem;
         }
     }
+
 
         .aanbevelingen_card p {
             margin: 0;
@@ -79,48 +153,179 @@ main section:nth-child(4) article img, .trending article img {
         }
 
 
+/* scroll knopjes */
+main section:nth-child(4) ul::scroll-button(*) {
+    aspect-ratio:1;
+    color: var(--color-extra);
+    background-color: var(--color-dark_background);
+    border:none;
+    cursor:pointer;
+
+    position:absolute;
+  }
+  
+/* HOE KAN IK DEZE POSITIONEREN IN MIJN VAK??  en hoe voeg ik mijn svg toe ipv < >*/
+
+  main section:nth-child(4) ul::scroll-button(right) {
+    /* content: url("data:image/svg+xml,%3Csvg%20aria-label%3D%22ChevronRight%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22currentcolor%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%221.414%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20role%3D%22presentation%22%20focusable%3D%22false%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%3Cpath%20d%3D%22M18.172%2016l-6.586-6.586a2%202%200%201%201%202.828-2.828l8%208a2%202%200%200%201%200%202.828l-8%208A1.99%201.99%200%200%201%2013%2026a2%202%200%200%201-1.414-3.414L18.172%2016z%22%3E%3C/path%3E%3C/svg%3E") / 'Volgende'; */
+    content: '>' / 'Volgende';
+    right:clamp(1.5rem, 5vw, 2rem);
+  }
+  
+  main section:nth-child(4) ul::scroll-button(left) {
+    content: '<' / 'Vorige';
+    left:clamp(1.5rem, 5vw, 2rem);
+  }
+    
+
+
+
+
+
+
+
+
 
 /*********************//*********************/
-/*********     spotify   *********/
+/*********     spotify  section 5  *********/
 /*********************//*********************/
-main section:nth-child(5) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+main section:nth-child(5), main section:nth-child(5) div {
+    justify-content: center;    
     align-items: center;
+    text-align: center;
 
-    padding: 2rem;
+    @media (width > 48em) {
+        text-align: left;
+    }
+}
+main section:nth-child(5){
+    padding: 2rem 0;
     border: 1px solid var(--color-stroke);
     border-radius: .5rem;
 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
     @media (width > 48em) {
         flex-direction: row;
     }
 }
+
     main section:nth-child(5) img {
         width: 64px;
     }
 
+    main section:nth-child(5) h3 {
+        margin: 0;
+    }
+    main section:nth-child(5) p {
+        color: var(--color-secondary-text);
+        margin: 0;
+    }
+    main section:nth-child(5) a {
+        background-color: var(--color-extra);
+        color: var(--color-dark_background);
+        padding: .5rem 1.25rem;
+        border-radius: .5rem;
+    }
 
 
 
 /*********************//*********************/
-/*********     leukste concerten    *********/
+/*********     leukste concerten   section 6  *********/
 /*********************//*********************/
-main section:nth-child(6) section {
+main section:nth-child(6) ul {
     display: grid;
     grid-template-columns: 1fr;
     gap: .5rem;
 
+    /* dit moet hier omdat ik op de pagina een bepaalde padding heb gegeven, dit werkt anders niet */
+    padding: 0;
+
     @media (width > 48em) {
         grid-template-columns: 1fr 1fr;
     }
+}
 
+main section:nth-child(6) >  div:nth-of-type(1) {
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+/* toon alle knopje */
+main section:nth-child(6) a:nth-of-type(1) {
+    color: var(--color-extra);
+	padding: .25rem   1rem;
+	border-radius: 2rem;
+	background-color: var(--color-button);
 }
 
 main section:nth-child(6) article {
     background-color: var(--color-elevated_background);
     border-radius: 1rem;
     padding: 1rem;
+
+    display: flex;
+    align-items: center ;
+    gap: 1rem;
+}
+main section:nth-child(6) h3{
+    margin: 0;
+    font-size: 16px;
+
+    @media (width > 48em) {
+        font-size: 18px;
+    }
+}
+main section:nth-child(6) article div p:first-of-type{
+    color: var(--color-secondary-text);
+    margin: 0;
+    font-size: 12px;
+
+    @media (width > 48em) {
+        font-size: 14px;
+    }
+}
+
+/* div met svg p svg p */
+main section:nth-child(6) article div div {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    font-size: 14px;
+}
+
+main section:nth-child(6) article svg:nth-of-type(1), main section:nth-child(6) article div div p:nth-of-type(1) {
+    color: var(--color-extra-secondary);
+}
+main section:nth-child(6) article svg:nth-of-type(2), main section:nth-child(6) article  p:nth-of-type(2) {
+    color: var(--color-extra);
+}
+
+/* sterretje */
+main section:nth-child(6) article svg:last-child {
+    fill: var(--color-secondary-text);
+    padding: .5rem;
+
+    /* waarom werkt dit niet ??? ????????????  ????????   ?? ?? ?? ? ? ?? ? */
+    justify-self: right;
+}
+    main section:nth-child(6) article svg:last-child:hover {
+        background-color: var(--color-stroke);
+        border-radius: 1rem;
+        transition: 200ms;
+    }
+
+
+main section:nth-child(6) article img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: .5rem;
+
+    @media (width > 48em) {
+        width: 65px;
+        height: 65px;
+    }
 }

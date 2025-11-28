@@ -147,7 +147,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik heb pijltjes in mijn carousel nodig maar die krijg ik niet gepositioneerd, hoe doe ik dit?
   - Bij mijn spotify section is er nog een kruisje die het sluit, moet dit werken? Hoe krijg ik deze rechts in de hoek gepositioneerd?
 
-   
+  |Yenthe
+  - Hoe kunnen mijn afbeeldingen mee schalen zodat ze langer worden in de lengte?
+  - Hoe positioneren met display grid
+  
+  | Arpine
+  - hoe kan ik ervoor zorgen dat de plaatjes in de carousel dezelfde grootte zijn?
+  - waarom krijgt de grid een extra column erbij als er niks in zit?
+
+  | Omra
+  - hoe krijg ik de h2 van sectie vier onder de image
+  - Op mobile is section vijf een hele blok, maar als je hem groter maakt zijn het aparte blokken. Moet dit met css worden veranderen of html?
+  - Hoe verander je de lettertype van de a in adress, de font is wel geselcteerd met de a maar het wordt niet gewizjigd. (adress weg doen?)
 
 
   ### Verslag van meeting

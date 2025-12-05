@@ -141,32 +141,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Laura    
+  ####Laura    
   - Ik heb meerdere divs gebruikt in mijn html omdat ik anders het niet goed gepositioneerd kreeg met de opmaakt van bv flex, mag dit dan wel? 
   - Hoe kan ik mijn header met bepaalde breedte de svg in het menu wel en niet tonen. mag dit met display none?
   - Ik heb pijltjes in mijn carousel nodig maar die krijg ik niet gepositioneerd, hoe doe ik dit?
   - Bij mijn spotify section is er nog een kruisje die het sluit, moet dit werken? Hoe krijg ik deze rechts in de hoek gepositioneerd?
 
-  |Yenthe
+  ####Yenthe
   - Hoe kunnen mijn afbeeldingen mee schalen zodat ze langer worden in de lengte?
   - Hoe positioneren met display grid
   
-  | Arpine
+  ####Arpine
   - hoe kan ik ervoor zorgen dat de plaatjes in de carousel dezelfde grootte zijn?
   - waarom krijgt de grid een extra column erbij als er niks in zit?
 
-  | Omra
+  ####Omra
   - hoe krijg ik de h2 van sectie vier onder de image
   - Op mobile is section vijf een hele blok, maar als je hem groter maakt zijn het aparte blokken. Moet dit met css worden veranderen of html?
   - Hoe verander je de lettertype van de a in adress, de font is wel geselcteerd met de a maar het wordt niet gewizjigd. (adress weg doen?)
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Object-fit: cover; voor afbeeldingen passend te maken
+  divs mogen alleen op de delen waar het niet anders kan voor de css opmaak
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  grid-template-columns:1fr min(100% - 2em, 20em) 1fr;
+  om een colom te maken die een deel van de pagina gebruikt. Dus voor secties die de hele breedte gebruiken en voor secties die een deel gebruiken is dit handig.
+
+  nieuwe termen die ik heb geleerd te gebruiken
+  clamp () 
+  anchor-name: --carousel;
+  flex-basis: 33.33%;
+  position-area: top;
+  https://utopia.fyi/ is handig voor het automatisch responsive maken van delen van je website.
 - ...
 
 </details>
@@ -201,12 +208,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ####Laura
+  - Het verwijderen van een element uit de DOM met js lukt me niet goed om responsive te maken.
+  - Ik heb 2 divs gebruikt voor makkelijke opmaak, hoe kan ik dit op een betere manier doen?
+  - Hoe download ik de svg code naar een img?
 
+  ####Yenthe
+  - hoe gaat het scrollen bij mijn carousel weg?  
+  - Hoe maak ik ruimte aan de linker en rechter kan van de 4 list items (header)? 
+  - Grid in footer werkt niet?
+
+  ####Arpine
+  - kan een h3 en img ook als een link gemaakt worden en hoe doe je het dan positioneren
+
+  ####Omra
+  - hoe krijg ik de carousel vakjes even groot?
+  - Hoe maak ik een border line langer?
+  - hoe verwijder ik onnodige witruimte bij de P
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

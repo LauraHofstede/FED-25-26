@@ -1,0 +1,193 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	color-scheme: light dark;
+
+    --color-text: light-dark (white, #1a2129);
+
+
+	--color-text-dark:#1a2129;
+    --color-secondary-text: #b5bfca;
+
+    --color-dark_background:#00131a;
+    --color-elevated_background:#1a2129;
+    --color-inactive: #78818b;
+	--color-stroke: #2e3a47;
+
+	--color-button: #022d3d;
+
+	--color-extra: #00b6f0;
+	--color-extra-secondary: #fe4a49;
+	--color-ster: #ffa600;
+}
+
+
+body {
+    margin:0;
+}
+
+h4 {
+    margin: 0;
+}
+
+
+main > section:not(:first-child) {
+	margin: auto;
+	padding: 0 1rem;
+
+	/* dit heb ik uit de ticketswap website gekopierd en aangepast */
+	/* max-inline-size: calc(var(--_column-width) * 12 + var(--_gutter-width) * 11 + var(--_grid-padding) * 2); */
+	max-inline-size: calc(3.5rem * 12 + 1rem * 11 + 2rem * 2);
+
+	@media (width > 48em) {
+		padding: 0 2rem;
+	}	
+}
+
+
+/*********************/    /*********************/
+/******        Event   section 1         ******/
+/*********************/   /*********************/
+
+h1 {
+    margin:0;
+    text-align: center;
+    font-size: 1.75rem;
+
+    @media (width > 48em) {
+        font-size: 3.5rem;
+        text-wrap: balance;
+    }
+}
+
+main section:nth-child(1) {
+    background-image: url('../images/e_neighbourhoodcover.webp');
+    background-repeat: no-repeat;
+        /* filter: blur(32px); */
+    /* height: 50vh; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid var(--color-stroke);
+}
+main section:nth-child(1) img{
+    aspect-ratio: 16 / 9;
+    border-radius: 1rem;
+    object-fit: cover;
+    max-inline-size: 320px;
+
+    @media (width > 48em) {
+        max-inline-size: 375px;
+    }
+
+}
+
+
+
+main section:nth-child(1) ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}   
+main section:nth-child(1) li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main section:nth-child(1) a {
+    text-decoration: underline color-mix(in srgb, var(--color-secondary-text) 50%, transparent);
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+}   
+    main section:nth-child(1) a:hover{
+        text-decoration: underline var(--color-secondary-text);
+    }  
+
+main section:nth-child(1) svg, main section:nth-child(1) li {
+    fill: var(--color-secondary-text);
+    color: var(--color-secondary-text);
+}
+
+main section:nth-child(1) button {
+    color: var(--color-extra);
+    /* de color mix code van de ticketmaster website gekopierd */
+    background-color:  color-mix(in srgb, var(--color-extra),transparent calc(100% - (16% * 1)));
+    border-radius: 1rem;
+    border: none;
+    padding-inline: .75rem;
+    block-size: 2rem;
+}
+    main section:nth-child(1) button:hover {
+        background-color:  color-mix(in srgb, var(--color-extra),transparent calc(100% - (25% * 1)));
+    }
+    main section:nth-child(1) button svg {
+        fill: var(--color-extra);
+    }
+
+
+
+
+
+/*********************/    /*********************/
+/******        tickets   section 2         ******/
+/*********************/   /*********************/
+
+main section:nth-child(2) {
+    padding: 0;
+}
+main section:nth-child(2) ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main section:nth-child(2) li {
+    background-color: var(--color-elevated_background);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+main section:nth-child(2) li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main section:nth-child(2) li a div:nth-of-type(1) p {
+    color: var(--color-secondary-text);
+    margin: 0;
+    font-size: .75rem;
+}
+
+main section:nth-child(2) li a div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-extra);
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    height: fit-content;
+}
+main section:nth-child(2) li a div:nth-of-type(2) p {
+    margin: 0;
+    font-size: .75rem;
+    color: var(--color-text-dark);
+}
+main section:nth-child(2) li a div:nth-of-type(2) svg { 
+    fill: var(--color-text-dark);
+}
+
+
+main section:nth-child(2) li:nth-child(1) a div:nth-of-type(2), main section:nth-child(2) li:nth-child(3) a div:nth-of-type(2), main section:nth-child(2) li:nth-child(5) a div:nth-of-type(2) {
+    background-color: var(--color-inactive);
+}
+main section:nth-child(2) li:nth-child(1) a div:nth-of-type(2) p, main section:nth-child(2) li:nth-child(3) a div:nth-of-type(2) p, main section:nth-child(2) li:nth-child(5) a div:nth-of-type(2) p { 
+    color: var(--color-secondary-text);
+}
+main section:nth-child(2) li:nth-child(1) a div:nth-of-type(2) svg, main section:nth-child(2) li:nth-child(3) a div:nth-of-type(2) svg, main section:nth-child(2) li:nth-child(5) a div:nth-of-type(2) svg { 
+    fill: var(--color-secondary-text);
+}

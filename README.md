@@ -98,22 +98,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 1<sup>e</sup> voortgang - HERKANSING</summary>
 
   ### Stand van zaken
-  De code schrijven ging redelijk goed, af en toe moest ik even nadenken wat voor stukje code ik moest gebruiken. Sommige delen weet ik nog niet hoe ik dit moet gaan maken zoals de ropdown menus. 
+  Week 1 - De code schrijven ging redelijk goed, af en toe moest ik even nadenken wat voor stukje code ik moest gebruiken. Sommige delen weet ik nog niet hoe ik dit moet gaan maken zoals de ropdown menus. 
   Ik ben ook alvast begonnen aan de css code schrijven zodat het al een beetje werkt op mobiel en desktop.
 
+  Herkansing - Code schrijven gaat goed, loop vast op moeilijkere dingen waar ik dan langer mee bezig ben om uit te zoeken hoe het moet omdat ik nu al heel veel code heb is het af en toe wat onoverzichtelijk geworden. 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  - Waar komt mijn grid columns vandaan? Niks werkt.
+  - Div vervangen door wat hier?
+  - hoe krijg ik deze naast elkaar en niet op elkaar??
+  - Moet een p persee gebruikt worden in een li of mag dat ook zo?
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -174,8 +173,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   flex-basis: 33.33%;
   position-area: top;
   https://utopia.fyi/ is handig voor het automatisch responsive maken van delen van je website.
-- ...
-
 </details>
 
 
@@ -202,7 +199,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vind het nog lastig om voor delen geen divs te gebruiken voor de styling omdat ik het voornamelijk met flex heb aangeleerd. Nu moet ik veel meer gebruik maken van grid's. Het lukt me uiteindelijk wel om het aan te passen maar het kost me veel meer moeite om het goed eruit te laten zien.
 
 
   ### Agenda voor meeting
@@ -227,13 +224,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - hoe verwijder ik onnodige witruimte bij de P
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - De JS code die ik had om een element te verwijderen uit mijn html op desktop versie mag ik niet gebruiken. 
+  - Hoe je een element correct uit de pagina kan verwijderen zonder de visibilty hidden kan met de display none, dan ziet de screenreader dit niet.
+  - De divs weghalen en een grid gebruiken, elke regel dan in de css aanwijzen welke positie die moet hebben. Hoe je de 2e div weg krijgt moet ik ook aan Sanne vragen. 
 </details>
 
 
@@ -275,7 +268,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1
-  2. bron 2
-  3. ...
+  2. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/select - The HTML Select element - Uitleg op de mdn website gebruikt voor mijn select knop voor de stad op de homepagina.
+  3. https://chrome.dev/anchor-tool/ - Anchor Position tool -> uitleg op de site gebruikt voor het positioneren van de scroll buttons, maar voornamelijk Sanne zijn hulp hiervoor gebruikt 
 
 </details>

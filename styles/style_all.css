@@ -7,7 +7,7 @@
 	/* text kleuren */
     --color-text: light-dark (#fff, #1a2129);
     /* --color-text_reverse: light-dark (#1a2129, #fff); */
-	--color-secondary-text: light-dark (#4e565f, #b5bfca);
+	/* --color-secondary-text: light-dark (#4e565f, #b5bfca); */
 	
 	/* achtergrond kleuren */
 	/* --color-background: light-dark (#fff, #00131a); */
@@ -43,6 +43,8 @@
 /* in verschillende media gedaan omdat de light-dark( #, #) manier niet werkte in mijn browser */
 @media (prefers-color-scheme: light) {
 	:root {
+		--color-secondary-text: #4e565f;
+
 		--color-text_reverse: #fff;
 		--color-background:#fff;
 		--color-background_reverse:#00131a;
@@ -53,6 +55,8 @@
 }
 @media (prefers-color-scheme: dark) {
 	:root {
+		--color-secondary-text: #b5bfca;
+
 		--color-text_reverse:#1a2129;
 		--color-background: #00131a;
 		--color-background_reverse:#fff;
@@ -465,9 +469,6 @@ main {
   
 main section  {
 	grid-column:2/3;
-
-	/* gedaan met padding omdat met gap er verkeerde ruimtes tussen kwamen bij het bovenste deel */
-	padding: 1.5rem 0;
   }
   
   section.full-width {

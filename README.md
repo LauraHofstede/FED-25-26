@@ -115,12 +115,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik heb weer een aantal verbeterpuntjes geleerd zoals de grid en de volgorde van mijn code voor selectors
 
 </details>
 
@@ -185,7 +181,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Nog niet alles dat een arialabel moet hebben heeft een correcte label, dus die moet ik nog overal toevoegen of verbeteren.
+  - Sommige articles kan je niet selecteren met tab omdat het geen link heeft.
+  - Op mobiel kan je nogsteeds door het dichte hamburgermenu heen met tab terwijl het display none heeft? Dit snap ik niet. 
+  - Een aantal koppen waren niet op de volgorde dus die zijn aangepast.
 
 </details>
 
@@ -238,20 +237,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
+<!-- NOG DOEN -->
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screenshot-eindresultaat-Home-Desktop.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screenshot-eindresultaat-Home-mobile.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  De algemene layout en opmaak ging goed. Ik heb geleerd om met grid te werken bij dingen waar ik eerst meer divs en flex voor zou gebruiken, ik kan dus de code meer clean schrijven nu. Ook heb ik meerdere kleine dingen geleerd om iets simpeler te doen of betere code.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Scherm­afbeelding 2026-01-20 om 21.06.22.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Sommige dingen goed te positioneren of te laten werken vond ik lastig. Vooral bij de carousel v=bij het stukje aanbevelingen op de homepagina, ik kreeg deze niet goed gepositioneerd met de hoogte en breedte dus nu klopt het niet helemaal als je met de pijltjes klikt. Het werkt wel en ziet er prima uit maar het is niet perfect. Ik vond het ook nog wat lastig om geen classes te gebruiken, nu moest ik goed nadenken over welke selector ik nodig had en hier zullen vast nog wel wat foutjes in zitten of dingen die ik beter had kunnen gebruiken. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Scherm­afbeelding 2026-01-20 om 21.06.22.png" width="375px" alt="bummer">
 </details>
 
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 595.3 841.9">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        mix-blend-mode: color;
+        opacity: .6;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.6, SVG Export Plug-In . SVG Version: 1.2.0 Build 188)  -->
+  <g class="cls-1">
+    <g id="Laag_1">
+      <image class="cls-2" width="600" height="340" transform="translate(-2 250.9)" xlink:href="neighbourhood blur.webp"/>
+    </g>
+  </g>
+</svg>

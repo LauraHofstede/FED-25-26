@@ -41,3 +41,10 @@ buttons.forEach(button => {
 
 
 
+// spotify section op display none zetten als je op de kruisje klikt
+const section = document.getElementById('spotify-section');
+const closeBtn = document.getElementById('close-btn');
+
+closeBtn.addEventListener('click', () => {
+  section.style.display = 'none';
+});

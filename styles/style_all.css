@@ -99,6 +99,11 @@ a {
     color: var(--color-text);
 }
 
+svg {
+	width: 1rem;
+	height: 1rem;
+	fill: currentColor;
+}
 
 button {
 	appearance: none;
@@ -133,7 +138,7 @@ picture {
 }
 header nav {
 	display: flex;
-	padding: 1rem;
+	padding: var(--padding-medium);
 	border-bottom: 1px solid var(--color-stroke);
 
 	ul{
@@ -177,7 +182,7 @@ header nav {
 		li:first-child a {
 			background-color: var(--color-extra);
 			border-radius: .5rem;
-			padding: .5rem;
+			padding: var(--padding-small);
 			color: var(--color-text_reverse);
 			justify-content: center;
 		}	
@@ -227,14 +232,14 @@ nav.toonMenu ul {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 1rem;
+		padding: var(--padding-medium);
 	}
 
 	/* verkoop tickets */
 	li:first-child a {
 		background-color: var(--color-extra);
 		border-radius: .5rem;
-		padding: .5rem;
+		padding: var(--padding-small);
 		color: var(--color-text_reverse);
 		justify-content: center;
 	}
@@ -315,7 +320,7 @@ footer {
 
 	section:nth-child(4) button {
 		color: var(--color-extra);
-		padding: 1rem;
+		padding: var(--padding-medium);
 		border-radius: .5rem;
 		width: 100%;
 	
@@ -332,7 +337,7 @@ footer {
 	gap: 1rem;
 	grid-template-columns: auto 1fr;
 	grid-template-rows: repeat(2, 1fr);
-	padding: 1rem 0;	
+	padding: var(--padding-medium) 0;	
 
 
 	h2 { grid-area: 1 / 1 / 2 / 2; }
@@ -364,7 +369,7 @@ footer {
 footer > div:nth-of-type(2) {
 	display: grid;
 	gap: 2rem;
-	padding: 2rem 0;
+	padding: var(--padding-extralarge) 0;
 
 	@media (width > 48em) {
 		grid-template-columns: repeat(3, 1fr);
@@ -382,8 +387,6 @@ footer > div:nth-of-type(2) {
 	}	
 
 
-	/* menu */
-	/* dropdown button maken !!!!! */
 
 
 	/* nav linkjes */
@@ -467,7 +470,7 @@ main {
   }
   
   
-main section  {
+main > section  {
 	grid-column:2/3;
   }
   

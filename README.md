@@ -252,7 +252,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Sommige dingen goed te positioneren of te laten werken vond ik lastig. Vooral bij de carousel v=bij het stukje aanbevelingen op de homepagina, ik kreeg deze niet goed gepositioneerd met de hoogte en breedte dus nu klopt het niet helemaal als je met de pijltjes klikt. Het werkt wel en ziet er prima uit maar het is niet perfect. Ik vond het ook nog wat lastig om geen classes te gebruiken, nu moest ik goed nadenken over welke selector ik nodig had en hier zullen vast nog wel wat foutjes in zitten of dingen die ik beter had kunnen gebruiken. 
 
-  <img src="readme-images/Scherm­afbeelding 2026-01-20 om 21.06.22.png" width="375px" alt="bummer">
+  <img src="readme-images/Scherm­afbeelding 2026-01-20 om 21.06.00.png" width="375px" alt="bummer">
 </details>
 
 

@@ -181,10 +181,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  - Nog niet alles dat een arialabel moet hebben heeft een correcte label, dus die moet ik nog overal toevoegen of verbeteren.
-  - Sommige articles kan je niet selecteren met tab omdat het geen link heeft.
-  - Op mobiel kan je nogsteeds door het dichte hamburgermenu heen met tab terwijl het display none heeft? Dit snap ik niet. 
-  - Een aantal koppen waren niet op de volgorde dus die zijn aangepast.
+  WCAG Checklist / screenreader: 
+  - De content en global code kloppen
+  - Alle img hebben nu een correcte alt tekst
+  - Links en buttons hebben een passende arialabel als de tekst nog niet duidelijk genoeg was
+  <img src="readme-images/links.png" width="275px" alt="links">
+
+  - De heading levels kloppen met maar 1 h1 per pagina
+  <img src="readme-images/koppen.png" width="275px" alt="koppen">
+
+  - Het is duidelijk waar je bent als je met tab door de pagina heen gaat door de omlijning
+  - Op mobiel kan je nogsteeds door het dichte hamburgermenu heen met tab terwijl het display none heeft? (oplossen met Skiplink?)
+
+  Contrast-ratio: 
+  - De headings hebben een contrast van 18.95
+  - Normale tekst heeft een contrast van 10.17
+  - Deze zijn dus goed
+  <img src="readme-images/contrast.png" width="175px" alt="contrast-ratio">
+  <img src="readme-images/contrastp.png" width="175px" alt="contrast-ratio">
+
+  Kleurblindheid: 
+  - De website is nogsteeds goed te navigeren omdat de contrast ratio goed is
+  - De knoppen zien er ook duidelijk uit als knoppen en de kleur maakt dus niet veel uit 
+
 
 </details>
 
@@ -237,7 +256,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-<!-- NOG DOEN -->
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/screenshot-eindresultaat-Home-Desktop.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/screenshot-eindresultaat-Home-mobile.png" width="375px" alt="uitomst opdracht 1">

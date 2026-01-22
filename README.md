@@ -185,10 +185,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De content en global code kloppen
   - Alle img hebben nu een correcte alt tekst
   - Links en buttons hebben een passende arialabel als de tekst nog niet duidelijk genoeg was
-  <img src="readme-images/links.png" width="275px" alt="links">
+  <img src="readme-images/links.jpeg" width="275px" alt="links">
 
   - De heading levels kloppen met maar 1 h1 per pagina
-  <img src="readme-images/koppen.png" width="275px" alt="koppen">
+  <img src="readme-images/koppen.jpeg" width="275px" alt="koppen">
 
   - Het is duidelijk waar je bent als je met tab door de pagina heen gaat door de omlijning
   - Op mobiel kan je nogsteeds door het dichte hamburgermenu heen met tab terwijl het display none heeft? (oplossen met Skiplink?)
@@ -203,8 +203,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Kleurblindheid: 
   - De website is nogsteeds goed te navigeren omdat de contrast ratio goed is
   - De knoppen zien er ook duidelijk uit als knoppen en de kleur maakt dus niet veel uit 
-
-
 </details>
 
 
